@@ -17,6 +17,9 @@ export default function Home({ children }) {
               />
           </div>
         </div>
+        <nav>
+          <p><Link href="/paginas/compromisso"></Link></p>
+        </nav>
       </header>
     </div>
   )
