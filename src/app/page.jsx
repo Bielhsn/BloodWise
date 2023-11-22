@@ -7,16 +7,16 @@ export default function Home({ children }) {
     <div className=''>
       <header>
         <div className="img_blood">
-
           <div className='img'>
               <Image
-                src="/img/Blood.png"
+                src="/img/sangue.png"
                 alt='sangue'
-                width={300}
-                height={220}
+                width={750}
+                height={750}
               />
           </div>
         </div>
+        
         <nav>
           <p><Link href="/paginas/compromisso"></Link></p>
         </nav>
