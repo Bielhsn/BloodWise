@@ -1,11 +1,9 @@
-import Image from 'next/image'
-import Link from 'next/link'
+import React from 'react'
 
-
-export default function Home({ children }) {
+function page() {
   return (
-    <div>
-      <h1>Cadastro</h1>
-    </div>
+    <div>page</div>
   )
 }
+
+export default page

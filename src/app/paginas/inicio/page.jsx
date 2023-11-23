@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import '/styles/inicio.scss'
+import "./inicio.scss"
 
 
 export default function Home({ children }) {
@@ -12,8 +12,8 @@ export default function Home({ children }) {
               <Image
                 src="/img/sangue.png"
                 alt='sangue'
-                width={750}
-                height={750}
+                width={450}
+                height={450}
               />
           </div>
           <h1>Doação de Sangue</h1>
