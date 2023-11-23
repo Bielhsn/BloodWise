@@ -8,7 +8,7 @@ export default function Cabecalho() {
     <div className="cabecalho">
       <header>
         <nav>
-          <p><Link href="/paginas/inicio">Início</Link></p>
+          <p><Link href="/">Início</Link></p>
           <p><Link href="/paginas/compromisso">Compromisso</Link></p>
           <Image
                 src="/img/Logo.png"
