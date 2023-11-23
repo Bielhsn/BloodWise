@@ -1,13 +1,14 @@
 import Link from "next/link"
 import Image from "next/image"
 import React from 'react'
+import "./Cabecalho.scss"
 
 export default function Cabecalho() {
   return (
     <div className="cabecalho">
       <header>
         <nav>
-          <p><Link href="/">Início</Link></p>
+          <p><Link href="/paginas/inicio">Início</Link></p>
           <p><Link href="/paginas/compromisso">Compromisso</Link></p>
           <Image
                 src="/img/Logo.png"
