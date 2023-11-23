@@ -41,27 +41,41 @@ export default function Home({ children }) {
             </div>
           </div>
           <div>
-            <div>
-            <h1 className='request_blood'>Requisitos para doar sangue</h1>
-            <h3>Idade</h3>
-            <p>Você precisa ter entre 16 e 69 anos para doar sangue. Menores de 18 anos precisam de autorização dos pais ou responsáveis.</p>
-            </div>
-            <div>
-            <h3>Peso</h3>
-            <p>Você precisa pesar no mínimo 50 Kg e ter um índice de massa corporal (IMC) dentro da faixa permitida.</p>
-            </div>
-            <div>
-            <h3>Outros requisitos</h3>
-            <ul>
-              <li>Estar descansado e alimentado</li>
-              <li>Não ter ingerido bebidas alcoólicas nas últimas 12 horas</li>
-              <li>Não ter tido doenças infecciosas nos últimos dias</li>
-            </ul>
-            </div>
-          </div>
+            <h1 className='request_blood'>Requisitos para doar sangue</h1>    
+            <div class="card_request_blood">
+              <div class="card_idade">
+              <h3 className='request_blood' id='age'>Idade</h3>
+              <p className='age_request'>Você precisa ter entre 16 e 69 <br></br> anos para doar sangue.<br></br> Menores de 18 anos precisam<br></br> de autorização dos pais ou <br></br>responsáveis.</p>
+              </div>
 
-        </div>
+              <div class="card_peso">
+              <h3 className='request_blood' id='weight'>Peso</h3>
+              <p className='weight_request'>Você precisa pesar no mínimo <br></br>50 Kg e ter um índice de <br></br>massa corporal (IMC) dentro<br></br> da faixa permitida.</p>
+            </div>
+
+            <div class="card_requisitos">
+              <h3 className='request_blood' id='requirements'>Outros requisitos</h3>
+              <ul className='requirements_request'>
+                <li>Estar descansado e alimentado</li>
+                <li>Não ter ingerido bebidas alcoólicas nas últimas 12 horas</li>
+                <li>Não ter tido doenças infecciosas nos últimos dias</li>
+              </ul>
+            </div>
+
+
+
+
+
+            </div>
+            
+
+           
+
+
+
         
+           </div>    
+         </div>      
         <nav>
           <p><Link href="/paginas/compromisso"></Link></p>
         </nav>
