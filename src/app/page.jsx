@@ -11,7 +11,8 @@ export default function Home({ children }) {
           <h1 className='titulo'>Doação de Sangue</h1>
           <h2 className='subt'>A doação de sangue é um ato simples mas muito importante que pode salvar muitas vidas. 
             Infelizmente, <br></br> a necessidade de doadores de sangue é constante e muitas vezes maior que a quantidade de doações.</h2>
-            <button class="btn"><Link href="/paginas/formulario">Encontre um centro de doação de sangue perto de você</Link></button>
+            
+            <button className="btn"><Link href="/paginas/formulario">Encontre um centro de doação de sangue perto de você</Link></button>
           </div>
           <div className='img'>
               <Image
@@ -22,39 +23,39 @@ export default function Home({ children }) {
               />
             <h1 className='ajudando'>Por que doar sangue é importante?</h1>
 
-            <div class="card">
-              <div class="bg"><h3>Você pode salvar vidas!</h3>
+            <div className="card">
+              <div className="bg"><h3>Você pode salvar vidas!</h3>
               <p>Doar sangue é uma forma direta de ajudar outras pessoas e pode fazer a diferença entre a vida e a morte para quem precisa.</p>
               </div>
-              <div class="blob"></div>
+              <div className="blob"></div>
             </div>
-            <div class="card_2">
-              <div class="bg_2"><h3>Renovação do estoque de sangue</h3>
+            <div className="card_2">
+              <div className="bg_2"><h3>Renovação do estoque de sangue</h3>
               <p>Doar sangue é uma forma direta de ajudar outras pessoas e pode fazer a diferença entre a vida e a morte para quem precisa.</p>
               </div>
-              <div class="blob_2"></div>
+              <div className="blob_2"></div>
             </div>
-            <div class="card_3">
-              <div class="bg_3"><h3>Exames gratuitos</h3>
+            <div className="card_3">
+              <div className="bg_3"><h3>Exames gratuitos</h3>
               <p>Antes de doar sangue, você passa por uma triagem que pode identificar problemas de saúde que você desconhecia.</p>
               </div>
-              <div class="blob_3"></div>
+              <div className="blob_3"></div>
             </div>
           </div>
           <div>
             <h1 className='request_blood'>Requisitos para doar sangue</h1>    
-            <div class="card_request_blood">
-              <div class="card_idade">
+            <div className="card_request_blood">
+              <div className="card_idade">
               <h3 className='request_blood' id='age'>Idade</h3>
               <p className='age_request'>Você precisa ter entre 16 e 69 <br></br> anos para doar sangue.<br></br> Menores de 18 anos precisam<br></br> de autorização dos pais ou <br></br>responsáveis.</p>
               </div>
 
-              <div class="card_peso">
+              <div className="card_peso">
               <h3 className='request_blood' id='weight'>Peso</h3>
               <p className='weight_request'>Você precisa pesar no mínimo <br></br>50 Kg e ter um índice de <br></br>massa corporal (IMC) dentro<br></br> da faixa permitida.</p>
             </div>
 
-            <div class="card_requisitos">
+            <div className="card_requisitos">
               <h3 className='request_blood' id='requirements'>Outros requisitos</h3>
               <ul className='requirements_request'>
                 <li>Estar descansado e alimentado</li>
@@ -62,19 +63,7 @@ export default function Home({ children }) {
                 <li>Não ter tido doenças infecciosas nos últimos dias</li>
               </ul>
             </div>
-
-
-
-
-
             </div>
-            
-
-           
-
-
-
-        
            </div>    
          </div>      
         <nav>
