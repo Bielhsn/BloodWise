@@ -16,7 +16,7 @@ export default function Cabecalho() {
                 width={200}
                 height={150}
               />
-          <p><Link href="/paginas/formulario">Formulário</Link></p>
+          <p><Link href="/paginas/login">Login</Link></p>
           <p><Link href="/paginas/equipe">Equipe</Link></p>
         </nav>
       </header>
