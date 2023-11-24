@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Rodape.scss'
 export default function Rodape() {
   return (
     <footer className='rodape'>

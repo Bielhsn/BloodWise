@@ -11,7 +11,7 @@ export default function Home({ children }) {
           <h1 className='titulo'>Doação de Sangue</h1>
           <h2 className='subt'>A doação de sangue é um ato simples mas muito importante que pode salvar muitas vidas. 
             Infelizmente, <br></br> a necessidade de doadores de sangue é constante e muitas vezes maior que a quantidade de doações.</h2>
-            <button class="btn"><Link href="/paginas/formulario">Participe</Link></button>
+            <button class="btn"><Link href="/paginas/formulario">Encontre um centro de doação de sangue perto de você</Link></button>
           </div>
           <div className='img'>
               <Image
