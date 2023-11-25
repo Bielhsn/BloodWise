@@ -109,7 +109,7 @@ export default function LoginUsers() {
                         <button>Login</button>
                     </div>
                     <div>
-                        <p>Se você ainda não tem cadastro conosco. <Link href="/login/cad">CLIQUE AQUI</Link></p>
+                        <p>Se você ainda não tem cadastro conosco. <Link href="/login">CLIQUE AQUI</Link></p>
                     </div>
                 </fieldset>
             </form>
