@@ -1,0 +1,18 @@
+{
+    "usuarios": [{
+        "id": 1,
+        "nome": "Fuller Coelho",
+        "email": "laoreet@aol.com",
+        "senha": "tincidunt"
+    }, {
+        "id": 2,
+        "nome": "Sybill Chagas",
+        "email": "risus.donec@outlook.couk",
+        "senha": "auctor"
+    }, {
+        "id": 3,
+        "nome": "Lynn Freitas",
+        "email": "iaculis.odio@aol.net",
+        "senha": "tempus"
+    }]
+}

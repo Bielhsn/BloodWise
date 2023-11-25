@@ -12,11 +12,7 @@ export default function Login() {
         <div className="flex">
           <label>
             <input required="" placeholder='' type="text" className='input' />
-            <span>FirstName</span>
-          </label>
-          <label>
-            <input required="" placeholder='' type="text" className='input' />
-            <span>LastName</span>
+            <span>Nome</span>
           </label>
         </div>
 
