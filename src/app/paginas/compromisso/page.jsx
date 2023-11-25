@@ -49,7 +49,7 @@ export default function Compromisso() {
               <Image
               src="/img/solidariedade.png"
               alt='Fluxo de Energia'
-              id='margin_img_sangue'
+              id='margin_img_solidariedade'
               width={320}
               height={250}
               />

@@ -31,7 +31,7 @@ export default function Home({ children }) {
             </div>
             <div className="card_2">
               <div className="bg_2"><h3>Renovação do estoque de sangue</h3>
-              <p>Doar sangue é uma forma direta de ajudar outras pessoas e pode fazer a diferença entre a vida e a morte para quem precisa.</p>
+              <p>Os estoques de sangue de um banco de sangue duram por um tempo limitado, então é necessário uma doação constante para manter o suprimento.</p>
               </div>
               <div className="blob_2"></div>
             </div>

@@ -236,3 +236,757 @@
       transform: translate(-100%, -100%) translate3d(0, 0, 0);
     }
   }
+
+  @media only screen and (max-width: 1024px) {
+    /* For desktop: */
+    
+    .missao{
+      color: #CD0232;
+      margin: auto;
+      text-align: left;
+      margin-left: 93px;
+      margin-top: -88px;
+      font-size: 3rem;
+      float: left;
+  }
+  .sub_missao{
+    color: #606060;
+    margin: auto;
+    text-align: left;
+    margin-left: 99px;
+    margin-top: 50px;
+    font-size: 1.3rem;
+  }
+  
+  #doubleblood{
+    float: right;
+    margin-top: -150px;
+    margin-right: 350px;
+  }
+  
+  .valores{
+    float: left;
+    color: #CD0232;
+    margin: auto;
+    text-align: left;
+    margin-left: 90px;
+    margin-top: 26px;
+    font-size: 3rem;
+  }
+  
+  #margin_img_doando{
+    float: left;
+    margin-top: 106px;
+    margin-left: -175px;
+  }
+  
+  .ajuda{
+    float: left;
+    margin-top: 348px;
+    margin-left: -320px;
+  }
+  
+  #margin_img_sangue{
+    float: left;
+    margin-top: 106px;
+    margin-left: 33px;
+  }
+  
+  .fluxo{
+    float: left;
+    margin-top: 346px;
+    margin-left: -319px;
+  }
+
+  #margin_img_solidariedade{
+    float: left;
+    margin-top: 542px;
+    margin-left: -743px;
+  }
+  .solidariedade{
+    float: right;
+    margin-top: 240px;
+    margin-right: 473px;
+  }
+  
+  
+  .visao{
+    color: #CD0232;
+    margin: auto;
+    text-align: left;
+    margin-right: 240px;
+    margin-top: -509px;
+    font-size: 3rem;
+    float: right;
+  }
+  .sub_visao{
+    color: #606060;
+    margin: auto;
+    text-align: left;
+    margin-left: 463px;
+    margin-top: -427px;
+    font-size: 1.3rem;
+    float: right;
+  }
+  
+  .card {
+      position: relative;
+      width: 406px;
+      height: 212px;
+      border-radius: 14px;
+      z-index: 1111;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      float: left;
+      margin-left: -150px;
+      margin-top: 160px;
+    }
+    
+    .bg {
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      width: 332px;
+      height: 223px;
+      text-align: center;
+      z-index: 2;
+      background: #a9a9a9;
+      -webkit-backdrop-filter: blur(24px);
+      backdrop-filter: blur(24px);
+      border-radius: 10px;
+      overflow: hidden;
+      outline: 2px solid white;
+    }
+    
+    .blob {
+      position: absolute;
+      z-index: 1;
+      top: 50%;
+      left: 50%;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-color: #ff0000;
+      opacity: 1;
+      filter: blur(12px);
+      animation: blob-bounce 5s infinite ease;
+    }
+    
+    .card_2 {
+      position: relative;
+      width: 406px;
+      height: 212px;
+      border-radius: 14px;
+      z-index: 1111;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      float: right;
+      margin-right: 730px;
+      margin-top: -212px;
+    }
+    
+    .bg_2 {
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      width: 332px;
+      height: 223px;
+      text-align: center;
+      z-index: 2;
+      background: #a9a9a9;
+      -webkit-backdrop-filter: blur(24px);
+      backdrop-filter: blur(24px);
+      border-radius: 10px;
+      overflow: hidden;
+      outline: 2px solid white;
+    }
+    
+    .blob_2 {
+      position: absolute;
+      z-index: 1;
+      top: 50%;
+      left: 50%;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-color: #ff0000;
+      opacity: 1;
+      filter: blur(12px);
+      animation: blob-bounce 5s infinite ease;
+    }
+  
+    .card_3 {
+      position: relative;
+      width: 406px;
+      height: 212px;
+      border-radius: 14px;
+      z-index: 1111;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      float: right;
+      margin-right: 370px;
+      margin-top: -210px;
+    }
+    
+    .bg_3 {
+      position: absolute;
+      top: 5px;
+      left: 5px;
+      width: 332px;
+      height: 223px;
+      text-align: center;
+      z-index: 2;
+      background: #a9a9a9;
+      -webkit-backdrop-filter: blur(24px);
+      backdrop-filter: blur(24px);
+      border-radius: 10px;
+      overflow: hidden;
+      outline: 2px solid white;
+    }
+    
+    .blob_3 {
+      position: absolute;
+      z-index: 1;
+      top: 50%;
+      left: 50%;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background-color: #ff0000;
+      opacity: 1;
+      filter: blur(12px);
+      animation: blob-bounce 5s infinite ease;
+    }
+    @keyframes blob-bounce {
+      0% {
+        transform: translate(-100%, -100%) translate3d(0, 0, 0);
+      }
+    
+      25% {
+        transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+      }
+    
+      50% {
+        transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+      }
+    
+      75% {
+        transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+      }
+    
+      100% {
+        transform: translate(-100%, -100%) translate3d(0, 0, 0);
+      }
+    }
+  }
+
+@media only screen and (max-width: 900px) {
+  /* For desktop: */
+  
+  .missao{
+    color: #CD0232;
+    margin: auto;
+    text-align: left;
+    margin-left: 93px;
+    margin-top: -88px;
+    font-size: 3rem;
+    float: left;
+}
+.sub_missao{
+  color: #606060;
+  margin: auto;
+  text-align: left;
+  margin-left: 99px;
+  margin-top: 50px;
+  font-size: 1.3rem;
+}
+
+#doubleblood{
+  float: right;
+    margin-top: -150px;
+    margin-right: 194px;
+}
+
+.valores{
+  float: left;
+  color: #CD0232;
+  margin: auto;
+  text-align: left;
+  margin-left: 90px;
+  margin-top: 26px;
+  font-size: 3rem;
+}
+
+#margin_img_doando{
+  float: left;
+  margin-top: 106px;
+  margin-left: -175px;
+}
+
+.ajuda{
+  float: left;
+  margin-top: 348px;
+  margin-left: -320px;
+}
+
+#margin_img_sangue{
+  float: left;
+  margin-top: 106px;
+  margin-left: 33px;
+}
+
+.fluxo{
+  float: left;
+  margin-top: 346px;
+  margin-left: -319px;
+}
+
+#margin_img_solidariedade{
+  float: left;
+  margin-top: 542px;
+  margin-left: -743px;
+}
+.solidariedade{
+  float: right;
+  margin-top: 240px;
+  margin-right: 351px;
+}
+
+
+.visao{
+  color: #CD0232;
+  margin: auto;
+  text-align: left;
+  margin-right: 240px;
+  margin-top: -509px;
+  font-size: 3rem;
+  float: right;
+}
+.sub_visao{
+  color: #606060;
+  margin: auto;
+  text-align: left;
+  margin-left: 463px;
+  margin-top: -427px;
+  font-size: 1.3rem;
+  float: right;
+}
+
+.card {
+    position: relative;
+    width: 406px;
+    height: 212px;
+    border-radius: 14px;
+    z-index: 1111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-left: -150px;
+    margin-top: 160px;
+  }
+  
+  .bg {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 332px;
+    height: 223px;
+    text-align: center;
+    z-index: 2;
+    background: #a9a9a9;
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+    overflow: hidden;
+    outline: 2px solid white;
+  }
+  
+  .blob {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    opacity: 1;
+    filter: blur(12px);
+    animation: blob-bounce 5s infinite ease;
+  }
+  
+  .card_2 {
+    position: relative;
+    width: 406px;
+    height: 212px;
+    border-radius: 14px;
+    z-index: 1111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-right: 730px;
+    margin-top: -212px;
+  }
+  
+  .bg_2 {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 332px;
+    height: 223px;
+    text-align: center;
+    z-index: 2;
+    background: #a9a9a9;
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+    overflow: hidden;
+    outline: 2px solid white;
+  }
+  
+  .blob_2 {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    opacity: 1;
+    filter: blur(12px);
+    animation: blob-bounce 5s infinite ease;
+  }
+
+  .card_3 {
+    position: relative;
+    width: 406px;
+    height: 212px;
+    border-radius: 14px;
+    z-index: 1111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-right: 370px;
+    margin-top: -210px;
+  }
+  
+  .bg_3 {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 332px;
+    height: 223px;
+    text-align: center;
+    z-index: 2;
+    background: #a9a9a9;
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+    overflow: hidden;
+    outline: 2px solid white;
+  }
+  
+  .blob_3 {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    opacity: 1;
+    filter: blur(12px);
+    animation: blob-bounce 5s infinite ease;
+  }
+  @keyframes blob-bounce {
+    0% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  
+    25% {
+      transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+    }
+  
+    50% {
+      transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+    }
+  
+    75% {
+      transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+    }
+  
+    100% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .missao{
+    color: #CD0232;
+    margin: auto;
+    text-align: left;
+    margin-left: 93px;
+    margin-top: -88px;
+    font-size: 3rem;
+    float: left;
+}
+.sub_missao{
+  color: #606060;
+    margin: auto;
+    text-align: left;
+    margin-left: 81px;
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+
+#doubleblood{
+  float: right;
+  margin-top: -192px;
+  margin-right: 94px;
+}
+
+.valores{
+  float: left;
+  color: #CD0232;
+  margin: auto;
+  text-align: left;
+  margin-left: 238px;
+  margin-top: 26px;
+  font-size: 3rem;
+}
+
+#margin_img_doando{
+  float: left;
+  margin-top: 106px;
+  margin-left: -175px;
+}
+
+.ajuda{
+  float: left;
+  margin-top: 348px;
+  margin-left: -320px;
+}
+
+#margin_img_sangue{
+  float: left;
+  margin-top: 20px;
+  margin-left: 243px;
+}
+
+.fluxo{
+  float: left;
+  margin-top: 266px;
+  margin-left: -319px;
+}
+
+#margin_img_solidariedade{
+  float: left;
+  margin-top: 411px;
+  margin-left: -342px;
+}
+.solidariedade{
+  float: right;
+  margin-top: 217px;
+  margin-right: 73px;
+}
+
+
+.visao{
+  color: #CD0232;
+  margin: auto;
+  text-align: left;
+  margin-right: 354px;
+  margin-top: -3px;
+  font-size: 3rem;
+  float: right;
+}
+.sub_visao{
+  color: #606060;
+  margin: auto;
+  text-align: left;
+  margin-left: 81px;
+  margin-top: 27px;
+  font-size: 1.3rem;
+  float: right;
+}
+
+.card {
+    position: relative;
+    width: 406px;
+    height: 212px;
+    border-radius: 14px;
+    z-index: 1111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-left: -150px;
+    margin-top: 160px;
+  }
+  
+  .bg {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 332px;
+    height: 223px;
+    text-align: center;
+    z-index: 2;
+    background: #a9a9a9;
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+    overflow: hidden;
+    outline: 2px solid white;
+  }
+  
+  .blob {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    opacity: 1;
+    filter: blur(12px);
+    animation: blob-bounce 5s infinite ease;
+  }
+  
+  .card_2 {
+    position: relative;
+    width: 406px;
+    height: 212px;
+    border-radius: 14px;
+    z-index: 1111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-right: 730px;
+    margin-top: -212px;
+  }
+  
+  .bg_2 {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 332px;
+    height: 223px;
+    text-align: center;
+    z-index: 2;
+    background: #a9a9a9;
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+    overflow: hidden;
+    outline: 2px solid white;
+  }
+  
+  .blob_2 {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    opacity: 1;
+    filter: blur(12px);
+    animation: blob-bounce 5s infinite ease;
+  }
+
+  .card_3 {
+    position: relative;
+    width: 406px;
+    height: 212px;
+    border-radius: 14px;
+    z-index: 1111;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-right: 370px;
+    margin-top: -210px;
+  }
+  
+  .bg_3 {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 332px;
+    height: 223px;
+    text-align: center;
+    z-index: 2;
+    background: #a9a9a9;
+    -webkit-backdrop-filter: blur(24px);
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+    overflow: hidden;
+    outline: 2px solid white;
+  }
+  
+  .blob_3 {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    opacity: 1;
+    filter: blur(12px);
+    animation: blob-bounce 5s infinite ease;
+  }
+  @keyframes blob-bounce {
+    0% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  
+    25% {
+      transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+    }
+  
+    50% {
+      transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+    }
+  
+    75% {
+      transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+    }
+  
+    100% {
+      transform: translate(-100%, -100%) translate3d(0, 0, 0);
+    }
+  }
+}
